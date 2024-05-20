@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRJN Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="page1" class="page">
+        <h1>Selamat Datang di MRJN Project</h1>
+        <form id="welcomeForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="dob">Tanggal Lahir:</label>
+            <input type="date" id="dob" name="dob" required>
+            <button type="button" id="nextButton">Tekan untuk Lanjut</button>
+        </form>
+    </div>
+
+    <div id="page2" class="page hidden">
+        <h1>Semangat!</h1>
+        <p id="message"></p>
+        <button id="backButton">Kembali</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
